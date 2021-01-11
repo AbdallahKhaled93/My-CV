@@ -1,0 +1,30 @@
+
+
+footer{
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 50px;
+    padding: 16px 16px;
+    max-width: 650px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header a{
+    margin-right: 16px;
+}
+
+.container-fluid{
+    margin-top: 100px;
+}
+
+.job{
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+}
+
+#hobbiesCarousel{
+    max-width:50%;
+    max-height: 100% !important;
+}
