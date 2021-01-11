@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" type="text/css" href="css/styles.css">
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <link rel="icon" href="img/home-icon.jpg">
+      <script src="https://kit.fontawesome.com/3a826d404e.js" crossorigin="anonymous"></script>
+      <title>About me</title>
+   </head>
+   <body class="font-italic">
+      <header>
+         <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="color:white; background-color: #7497b4;">
+            <a class="navbar-brand">Hello, it's Abdallah !!!</a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="margin-left:100px;">
+               <div class="navbar-nav">
+                  <a onclick="changeActive(this)" class="nav-item nav-link active" href="#AboutMe">About Me</a>
+                  <a onclick="changeActive(this)" class="nav-item nav-link" href="#Experience">Experience</a>
+                  <a onclick="changeActive(this)" class="nav-item nav-link" href="#Hobbies">Hobbies</a>
+                  <a onclick="changeActive(this)" class="nav-item nav-link" href="#Objective">Objective</a>
+                  <a onclick="changeActive(this)" class="nav-item nav-link" href="#Contacts">Contacts</a>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <div id="AboutMe" class="container-fluid">
+         <div class="row">
+            <div class="col-lg-3">
+               <div class="img-thumb">
+                  <img class="img-fluid" src="img/Personal-Photo.jpg" style="width: 50%; height: 50%;">
+               </div>
+            </div>
+            <div class="col-lg-6">
+               <div>
+                  <h3>Hi We Switched Studio !! </h3>
+                  <p>EHi, My name is Abdalla Afify, an embedded software engineer in the automotive industry. I am always looking forward to explore new technologies and new fields in software developement. Right now, I am working on empowering my skills in c++ and javascript.
+                    I would like to mix my passion for learning and my past experience in developping innovative products in tech industries. I am looking to diversify my experience and gain expertise in web developement technologies</p>
+                  <div>
+                     <ul>
+                        <li> Name : Abdallah Afify</li>
+                        <li> Age : 28 Years</li>
+                        <li> Experience : 6 Years</li>
+                        <li> Country of residence :  France</li>
+                        <li> Country of origin : Egypt</li>
+                     </ul>
+                  </div>
+                  <a href="https://www.dropbox.com/s/099fevge37re2a6/Abdallah%20Afify%20CV.pdf?dl=0" class="btn btn-primary"><i class="fas fa-paperclip"></i> Download Resume</a>
+                  <a href="mailto:abdallah.khaled.ali.93@gmail.com" class="btn btn-danger"><i class="fas fa-envelope"></i> Contact Me</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="Experience" class="container-fluid" style="background-color: rgba(228, 228, 228, 0.575);">
+         <div class="row">
+            <div class="col-md-12" style="margin-top: 20px;">
+                  <h1 style="color: #7497b4;">Work Experience</h1>
+            </div>
+            <div class="col-md-12">
+               <div class="content-item job">
+                  <small>September 2020 - Present</small>
+                  <h4>Production Engineering Coordinator</h4>
+                  <h5>Robert Bosch</h5>
+                  <p>St.-Ouen, Île-de-France, France</p>
+               </div>
+               <div class="content-item job">
+                  <small>September 2019 - August 2020</small>
+                  <h4>Software Consultant</h4>
+                  <h5>LR TECHNOLOGIES - GROUPE</h5>
+                  <p>Paris Area, France</p>
+               </div>
+               <div class="content-item job">
+                  <small>2012 - 2015</small>
+                  <h4>Media Analyst</h4>
+                  <h5>BizzNiss</h5>
+                  <p>United Kingdom, London</p>
+               </div>
+               <div class="content-item job">
+                  <small>August 2018 - September 2019</small>
+                  <h4>Software Engineer</h4>
+                  <h5>Elektrobit (EB)</h5>
+                  <p>Carrière-sur-seine, Île-de-France, France</p>
+               </div>
+               <div class="content-item job">
+                  <small>October 2014 - July 2018</small>
+                  <h4>Software Engineer</h4>
+                  <h5>Valeo</h5>
+                  <p>Cairo, Egypt</p>
+               </div>
+               <div class="content-item job">
+                  <small>August 2014 - October 2014</small>
+                  <h4>Software Engineer</h4>
+                  <h5>Yubb Software</h5>
+                  <p>Cairo, Egypt</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid row" id="Hobbies">
+         <div class="col-md-3">
+            <h1>Hobbies</h1>
+         </div>
+         <div class="carousel slide col-md-6" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/football.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Football</h5>
+                  <p>A heated match between expats in France.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/crossfit.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Crossfit</h5>
+                  <p>Me doing toes 2 bar.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/reading.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Reading</h5>
+                  <p>Harry Potter, my favourite series.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/travel.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Travel</h5>
+                  <p>A photo taken by me from the top of the mountain at Mallorca, Spain.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+         <div class="col-md-3"></div>
+      </div>
+
+      <div class="container-fluid" id="Objective" style="background-color: rgba(228, 228, 228, 0.575);">
+        <h1 style="color: #7497b4; padding-top: 20px;">Objective</h1>
+        <p style="padding-bottom: 20px;">To obtain a challenging and rewarding software engineer position where a degree in
+            computer engineering and some experience in PHP web frameworks can be utilized and at the same time
+            grown.</p>
+      </div>
+
+      <div class="container-fluid" id="Contacts">
+        <h1>Contacts</h1>
+        <ul>
+            <li><a href="https://www.facebook.com/abdallah.khaled.ali/"> <i class="fab fa-facebook-f"></i> facebook </a></li>
+            <li><a href="https://www.linkedin.com/in/abdallah-afify-ab756a80/"> <i class="fab fa-linkedin-in"></i> Linked </a></li>
+            <li><a href="https://github.com/AbdallahKhaled93"> <i class="fab fa-github"></i> Github </a></li>
+         </ul>
+      </div>
+
+      <footer>
+         <p>Created by: Abdallah Afify</p>
+      </footer>
+   </body>
+   <script>
+
+
+       $('.carousel').carousel({
+            interval: 2000,
+            wrap : true
+      })
+      
+      function changeActive(element)
+      {
+       $(".navbar-nav.active").removeClass("active");
+       $(element).addClass("active");
+      }
+   </script>
+</html>
